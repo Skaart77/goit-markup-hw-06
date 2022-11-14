@@ -670,6 +670,9 @@ letter-spacing: 0.01em;
   fill: var(--accent-color);
   border-color: var(--accent-color);
 }
+.form-input:focus , .form-input:hover{
+  border-color: var(--accent-color);
+}
 
 .form-textarea{ 
   width: 448px;
