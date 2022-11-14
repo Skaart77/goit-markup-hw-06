@@ -665,10 +665,11 @@ letter-spacing: 0.01em;
   
 }
 
-
-.form-input:hover , .form-input:hover .icon-form , 
-.form-input:focus , .form-input:focus .icon-form { fill: var(--accent-color);  border-color: var(--accent-color);}
-
+.form-input:hover + .icon-form,
+.form-input:focus + .icon-form {
+  fill: var(--accent-color);
+  border-color: var(--accent-color);
+}
 
 .form-textarea{ 
   width: 448px;
